@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Finder
+Icon?
+._*
+
+# macOS resource forks
+*.swp
+.Spotlight-V100
+.Trashes
+
+# macOS volume info
+.VolumeIcon.icns
+com.apple.timemachine.donotpresent
+*.AppleDouble
+
+# macOS metadata
+*.DS_Store
+.DS_Store?
+
+# JetBrains IDEs (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# User-specific files
+*.sublime-workspace
+*.sublime-project
+
+# Logs
+*.log
+
+# System Files
+Thumbs.db
+ehthumbs.db
