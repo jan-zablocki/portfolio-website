@@ -1,0 +1,71 @@
+/* Box sizing for layout consistency */
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #181818; /* Black background */
+    color: white;           /* White text */
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* NavBar CSS code based on this https://github.com/pure-css/pure/tree/main/site/static/layouts/marketing CSS library template*/
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: #2d3e50;
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar h1 {
+    color: white;
+    margin: 0;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1.5em;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #6FBEF3;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #6FBEF3;
+    font-size: 1em;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+    color: #AECFE5;
+}
+
